@@ -17,3 +17,9 @@ In future it will also contain pwsh-related content.
 `.zshrc` provides automatic NVM detection and initialization,
 also it exports `JAVA_HOME`. I am using GraalVM, so I am exporting,
 my GraalVM path.
+
+# Notice
+If you still wanna use .mydotfiles directory (or some other name),
+u need to create proper symlink to .zshrc.
+
+`.mydotfiles -> /home/../.zshrc`, by `ln -s`.
